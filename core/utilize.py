@@ -7,7 +7,7 @@
 
 import os
 import json
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # 获得当前目录的父目录
 # 初始化json文件
 def utilize():
     user_data = [
@@ -17,7 +17,6 @@ def utilize():
          'user_pay_password': '654321', 'user_credit': 15000, 'is_freeze': 0, 'balance': 0, 'time': '2017-01-01 0:0:0'}
     ]
 
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # 获得当前目录的父目录
     data_location = BASE_DIR + '//data//user_info.json'  #将user的信息保存的文件位置
     with open(data_location, 'w') as f:
         json.dump(user_data, f)
