@@ -1,0 +1,1 @@
+[{"balance": 0, "user_account": "10001", "user_name": "jack", "user_credit": 15000, "user_pay_password": "123456", "user_login_pwd": "123", "time": "2017-01-01 0:0:0", "is_freeze": 0}, {"balance": 0, "user_account": "10002", "user_name": "tom", "user_credit": 15000, "user_pay_password": "654321", "user_login_pwd": "321", "time": "2017-01-01 0:0:0", "is_freeze": 0}]
